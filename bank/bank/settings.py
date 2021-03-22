@@ -28,7 +28,7 @@ SECRET_KEY = '760z4(zfb0bevj2s$=(qjz22y_d0k_lxg^98ntoe+q&%vfw$ok'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get("DEBUG", False))
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['peaceful-everglades-62890.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
